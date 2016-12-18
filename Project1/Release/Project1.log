@@ -1,0 +1,61 @@
+﻿Build started 12/18/2016 9:11:19 PM.
+     1>Project "C:\Users\stavros\Documents\GitHub\VolumeVisualisation\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\stavros\Documents\Visual Studio 2013\glew-1.11.0\include" /I"C:\Users\stavros\Documents\Visual Studio 2013\freeglut\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Matrix.cpp Source.cpp Vector.cpp Volume.cpp
+         Camera.cpp
+     1>Camera.cpp(9): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>Camera.cpp(17): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         Matrix.cpp
+     1>Matrix.cpp(50): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Matrix.cpp(175): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Matrix.cpp(367): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Matrix.cpp(493): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         Source.cpp
+     1>Source.cpp(119): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(235): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(280): warning C4101: 'xIndex' : unreferenced local variable
+     1>Source.cpp(280): warning C4101: 'yIndex' : unreferenced local variable
+     1>Source.cpp(280): warning C4101: 'zIndex' : unreferenced local variable
+     1>Source.cpp(340): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>Source.cpp(379): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>Source.cpp(387): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(412): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(445): warning C4305: '=' : truncation from 'double' to 'float'
+     1>Source.cpp(459): warning C4305: '=' : truncation from 'double' to 'float'
+     1>Source.cpp(491): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(505): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(546): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(547): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(634): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Vector.cpp
+         Volume.cpp
+     1>Volume.cpp(29): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Volume.cpp(38): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Volume.cpp(39): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Volume.cpp(40): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Volume.cpp(83): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Volume.cpp(138): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Volume.cpp(139): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Volume.cpp(140): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Volume.cpp(142): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Volume.cpp(143): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Volume.cpp(144): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Volume.cpp(145): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Volume.cpp(197): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Volume.cpp(198): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Volume.cpp(199): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Volume.cpp(217): warning C4244: 'return' : conversion from 'float' to 'unsigned char', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\stavros\Documents\GitHub\VolumeVisualisation\Release\Project1.exe" /NOLOGO /LIBPATH:"C:\Users\stavros\Documents\Visual Studio 2013\glew-1.11.0\lib" /LIBPATH:"C:\Users\stavros\Documents\Visual Studio 2013\freeglut\lib" glew32.lib freeglut.lib pthreadVC2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\stavros\Documents\GitHub\VolumeVisualisation\Release\Project1.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\stavros\Documents\GitHub\VolumeVisualisation\Release\Project1.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
+         Release\Matrix.obj
+         Release\Source.obj
+         Release\Vector.obj
+         Release\Volume.obj
+         Generating code
+         Finished generating code
+         Project1.vcxproj -> C:\Users\stavros\Documents\GitHub\VolumeVisualisation\Release\Project1.exe
+     1>Done Building Project "C:\Users\stavros\Documents\GitHub\VolumeVisualisation\Project1\Project1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.49
